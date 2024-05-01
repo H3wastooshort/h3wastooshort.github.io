@@ -1,0 +1,62 @@
+/* crisp */
+
+:root {
+    --minty: #03fcb1;
+}
+
+body {
+  background-color: #080808;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABAAQMAAACQp+OdAAAABlBMVEUICAgCNibkZZhqAAAAIUlEQVQoz2NgYGBg/A8EDCAGAxSMMmBBwtAAEx9lYGMAAOL1GBjdmaBUAAAAAElFTkSuQmCC);
+  color: #EEE;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: repeat;
+	text-align: justify;
+	font-family: Consolas, monospace;
+	font-size: 1.1em;
+}
+
+h1,h2,h3,h4,h5,.txt_center {
+	text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    border-bottom: 1px var(--minty) dotted;
+    width: max-content;
+    margin: auto;
+    margin-bottom: 4px;
+}
+
+
+select, a {
+    color: var(--minty);
+}
+a:visited {
+    color: #07ffb4;
+}
+
+.center_img, img[src="https://hacker3000.cf/rotate_h3.gif"] {
+	display: block;
+	margin: auto;
+}
+
+iframe, .boxframe{
+	border: dashed 3px lime;
+}
+
+hr {
+	color: transparent;
+	border: none;
+	border-top: 2px solid lime;
+}
+
+button, input, fieldset, select, .fakebutton {
+	background-color: rgba(0,0,0,0.5);
+	margin: 2px;
+  border: solid 1px var(--minty);
+  color: #FFF;
+}
+
+ul {
+    list-style-position: inside;
+}
